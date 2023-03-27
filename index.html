@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and (max width:800px)" href="table.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">I AM <br> Devhan Dharmarathne <br> from Colombo, Sri Lanka</h1>
+            <button class="btn">
+                Hire Me
+            </button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+            <img src="images/1.jpg" alt="">
+            <div id="intro">
+                <h2>DEVHAN DHARMARATHNE</h2>
+                <p>I am a 19 year old Srilankan based around Colombo.<br> Currently studying at the Sri Lankan Technological Campus as a first year undergrad student for Bsc. in Cyber Security.<br>I am a past pupil of one of the best leading International schools in Srilanka, Lyceum International School Nugegoda.<br> 
+                Thus far I have completed my school education with State GCE Ordinary Level Exams and Cambridge International <br>Advanced Level Exams.
+                Im also a hardworking individual who is willing to go that extra mile to get things done on time with that extra bit of perfection and standard.<br> A dedicated, fun loving enthusiastic team player or a solo player according to the needs. I wasn't always the good kid but a notorious kid who did the best for him and everyone around.<br> Your decison won't be a regret in choosing me</p>
+            </div>
+            <div class="social-media-icons">
+                <a href="https://www.facebook.com/YourFacebookAccount"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/YourInstagramAccount"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/YourLinkedInAccount"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="headings">PORTFOLIO</h1>
+        <div class="gallery">
+            <img src="images/img1.jpg" alt="">
+            <img src="images/img2.jpg" alt="">
+            <img src="images/img 3.png" alt="">
+            <img src="images/img4.jpg" alt="">
+            <img src="images/img5.jpg" alt="">
+            <img src="images/img6.jpg" alt="">
+        </div>
+    </section>
+
+   <section id="services"> 
+    <h1 class="headings">SERVICES</h1>
+    <div class="row">
+        <div class="box">
+            <img src="images/webdesign.jpg" alt="">
+            <h1 class="headings">Website Design</h1>
+            <p>Website design involves creating the visual and functional layout of a website. It involves choosing colors, typography, and imagery that will appeal to the target audience and convey the desired message. Effective website design should prioritize user experience and accessibility.</p>
+        </div>
+        <div class="box">
+            <img src="images/ux.jpg" alt="">
+            <h1 class="headings">UX/UI <br>Design</h1>
+            <p>UX (User Experience) design focuses on creating an enjoyable and efficient experience for website or app users. UI (User Interface) design involves creating the visual and interactive elements that users interact with. Effective UX/UI design should aim to create an intuitive and seamless experience for users.</p>
+        </div>
+        <div class="box">
+            <img src="images/digi.jpeg" alt="">
+            <h1 class="headings">Digital Marketing</h1>
+            <p>Digital marketing is the practice of promoting products or services through online channels. It includes various techniques such as search engine optimization (SEO), social media marketing, email marketing, and content marketing. Effective digital marketing strategies should aim to reach the target audience, engage them, and convert them into customers.</p>
+        </div>
+    </div>
+   </section>
+   <section id="contact">
+   <h1 class="headings">CONTACT</h1>
+   <form method="post" action="send_email.php">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea class="form-control" id="message" name="message" placeholder="Enter your message" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
+</section>
+  </form>
+</body>
+</html>
